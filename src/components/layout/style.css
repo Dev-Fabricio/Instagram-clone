@@ -1,0 +1,20 @@
+.mainGrid {
+    display: grid;
+
+    grid-template-areas: "firstColumn secondColumn" ; /* Nomeação das areas grids */
+    grid-template-columns: 614px 293px; /* Largura das areas acima */
+
+    grid-gap: 50px;
+
+    max-width: 957px;
+    margin: 30px auto; /*  Centralizar ao centro  */
+
+
+}
+    
+.box {
+    background: var(--background);
+    border: 1px solid var(--border);
+
+
+}
